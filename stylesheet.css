@@ -1,0 +1,53 @@
+@media only screen and (max-width: 599px){
+	.siz50{width: 50%}
+	.siz100{width: 100%}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px){
+	.siz50{width: 50%}
+	.siz100{width: 100%}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px){
+	.siz50{width: 50%}
+	.siz100{width: 100%}
+}
+
+
+@media only screen and (min-width: 1200px){
+	.siz50{width: 50%}
+	.siz100{width: 100%;}
+}
+
+body{
+	background-color: black;
+	color: silver;
+}
+
+header{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+main{
+	width: 80%;
+	margin: auto;
+}
+
+section{
+	float: left;
+	text-align: center;
+	margin: auto;
+}
+
+section.border{
+	border-style: solid;
+	border-color: white;
+}
+
+#map{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}

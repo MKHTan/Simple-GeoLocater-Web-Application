@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>CPS 630 - Lab 3</title>
+<script src="javascript.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS2ywIJnxRbnPIB6JgarFDNLaIkXKBLmc&callback=initMap"></script>
+</head>
+<body>
+<header>Geolocation Application</header>
+<main>
+<section class="siz50 siz100">
+<h1>Custom Map Coordinate</h1>
+Latitude - <input type="text" id="newLat"></input> Longitude - <input type="text" id="newLng"></input> <button id="newCoButton" onClick="updateNewCo()">New Co-Ordinate</button>
+</section>
+
+<section id="displayArea" class="siz50 siz100">
+<h1>Coordinate Location</h1>
+</section>
+
+<section id="map" class="siz100">
+</section>
+
+<section id="dropArea" class="siz50 siz100 border" ondragenter="enter_handler(event);" ondragover="over_handler(event);" ondrop="drop_handler(event);">
+<h1>For list/set of coordinates.</h1>
+<h1>Drop text file in this area.</h1>
+</section>
+
+<section class="siz50 siz100">
+<h1>File Coordinates</h1>
+</section>
+
+<section id="displayArea2" class="siz100">
+</section>
+
+</main>
+</body>
+</html>
